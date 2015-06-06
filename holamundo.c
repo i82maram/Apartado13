@@ -1,6 +1,7 @@
 # include "./includes/miinclude.h"
 int main(){
-printf("Hola mundo\n");
-printf("%s\n", strcat(c,", soy i72loor"));
+
+char c[100]="Hola mundo";
+printf("%s\n", strcat(c,", No soy i72loor, sino i82maram y esto es una prueba"));
 return 0;
 }
